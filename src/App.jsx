@@ -1,15 +1,16 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Container } from "semantic-ui-react";
+//import { BrowserRouter, Switch, Route } from "react-router-dom";
+//import { Container } from "semantic-ui-react";
 //import Login from './Views/Login';
-import Home from "./Home";
+//import Home from "./Home";
 //import './App.css'
 import Geolocation from "./Geolocation";
 
 class App extends React.Component {
   render() {
     return (
-      <BrowserRouter>
+
+            /* <BrowserRouter>
         <Container>
           <Switch>
             <Route path="/geo" component={Geolocation}></Route>
@@ -17,6 +18,12 @@ class App extends React.Component {
           </Switch>
         </Container>
       </BrowserRouter>
+      */
+
+      <Geolocation></Geolocation>
+
+
+
     );
   }
 }
