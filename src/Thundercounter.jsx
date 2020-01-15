@@ -36,24 +36,18 @@ this.setState ({ counter: this.state.counter + 100})
 
 
   render() {
-   
-     var thunderStyle = {
-         //width: 250,
-         //heights: 500,
-         //margin: center,
-         color: "black",
-         //backgroundColor: "yellow",
-         textAlign: "center",
-         position: "absolute",
-         left: 150,
-         top: 120,
 
-         backgroundColor: "yellow",
-         width: 100,
-         height: 100,
-         display: "inlineBlock"
-        
-     }
+      var thunderStyle =
+      {
+          backgroundColor: "yellow",
+          width: 100,
+          height: 100,
+          margin: "auto",
+          display: "flex",
+          justifyContent: "center",  /* pion */
+          alignItems: "center" 
+          //position: "relative"
+      }
 
     return <div style={thunderStyle}>Thunder counter (from app start): {this.state.counter}</div>;
   }

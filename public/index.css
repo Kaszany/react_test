@@ -1,0 +1,70 @@
+#container 
+{
+display: flex;
+width: 100%; 
+height: 300px; 
+text-align: center; 
+margin: auto; 
+background-color: rgba(204, 235, 255, 0.5); 
+color:bisque"
+}
+
+#center
+{
+display: flex;
+text-align: center; 
+justify-content: center;  /* pion */
+align-items: center;
+background-color: orange;
+position: "relative";
+display: "inline-block";
+}
+
+.ddd
+{
+    
+margin: auto;
+text-align: center; 
+justify-content: center;  /* pion */
+align-items: center;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#container:hover 
+{
+width: 400px; 
+height: 400px; 
+text-align: center; 
+margin: auto; 
+background-color: orange; 
+color: red
+}
+
+.geo 
+{
+display: flex;
+width: 200px; 
+height: 200px; 
+text-align: center; 
+margin: auto; 
+background-color: rgba(226, 206, 27, 0.897); 
+color:bisque"
+}
+
+.window
+{
+width: 200px; 
+height: 200px;  
+margin: auto; 
+background-color: rgba(128, 229, 255, 1); 
+color:bisque;
+position: "relative";
+display: "inline-block";
+text-align: "center";
+text-justify: distribute;
+vertical-align: "auto";
+display: flex;
+justify-content: center;  /* pion */
+align-items: center; /* poziom */
+}

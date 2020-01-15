@@ -10,6 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="index.css">
 
    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
 
@@ -31,21 +32,36 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="container" >
+    <div  id="rootTrzy" class="geo"></div>
+    <div class="window" >Okienko 1</div>
+    <div class="window" >Okienko 2</div>
+    <div class="window" >Okienko 3</div>
+    <div  id="rootCztery" class="geo"></div>
+    </div>
     <div id="rootDwa"></div>
     <div id="new" style="background-color: rgba(209, 226, 209, 0.3); color:rgba(21, 68, 199, 0.966)" >
-
+      <div>
       <P><h1>NOWA APKA ŁUKASZA</h1>
+      
         <ol id="lista" style = "color: red">
           <li><h5>Uczyć się!!!</h5></li>
           <li><h5>Uczyć się!!!</h5></li>
           <li><h5>Uczyć się!!!</h5></li>
-          <li><h5>Uczyć się!!!</h5></li>
+          <li id="ostatnia"><h5>Uczyć się GAMONIE!!!</h5></li>
         </ol>
       </P>
-
-       <input id="getColor" ></input>
-       <button onclick="changeColor()">Zmien kolor listy</button>
-
+    </div>
+    <div id="center"> 
+    <div>
+       <input id="getColor" class="ddd" ></input>
+       <button class="ddd" onclick="changeColor()">Zmien kolor listy</button>
+    </div>
+    <div>
+        <input id="getValue" class="ddd" ></input>
+        <button class="ddd" onclick="postNewElement()">Dodaj element do listy</button>
+    </div>
+  </div>
        <P><h2>NOWA APKA ŁUKASZA</h2></P>
        <P><h3>NOWA APKA ŁUKASZA</h3></P>
        <P><h4>NOWA APKA ŁUKASZA</h4></P>
